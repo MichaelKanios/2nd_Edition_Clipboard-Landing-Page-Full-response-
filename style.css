@@ -5,7 +5,10 @@
   box-sizing:border-box;
   font-family: 'Bai Jamjuree', sans-serif;
 }
-
+body{
+  max-width: 1700px; 
+	
+}
 
 body p{
   color: hsl(210, 10%, 33%);
