@@ -5,7 +5,7 @@
   box-sizing:border-box;
   font-family: 'Bai Jamjuree', sans-serif;
 }
-@media screen and (max-width:1400px){
+
 
 body p{
   color: hsl(210, 10%, 33%);
@@ -40,7 +40,7 @@ font-size: 12px;
 header{
   background-image:url("images/bg-header-desktop.png");
   background-repeat: no-repeat;
-  background-size:1680px;
+  background-size: 1680px;
   display: flex;
   flex-direction:column;
   padding-top: 50px;
@@ -87,36 +87,28 @@ header img, h1{
 .workflow p{
   padding-top: 20px;
 }
-.blacklist h3{
-  padding-top: 10px;
-}
-.text h3 , .preview h3{
+.workflow_icons h3 {
   padding-top: 20px;
-}
-.workflow_icons{
-display: flex;
-justify-content: center;
-margin-top: 20px;
-}
-.blacklist, .text,.preview{
-  margin: 20px;
-}
-.workflow_icons img{
-  width: auto;
-}
-.icons{
-display: flex;
-justify-content: center;
-margin-top: 30px;
-margin-bottom: 60px;
-}
-.icons img{
-  width: 100px;
-}
-.icons img:nth-child(1) , img:nth-child(2),img:nth-child(3),img:nth-child(4){
-  margin-right: 80px;
+  padding-bottom: 20px;
+
 }
 
+.workflow_icons{
+  display: flex;
+  flex-direction: row;
+  margin: 50px 200px 50px 200px;
+}
+.blacklist, .text,.preview{
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+
+}
+.icons{
+  display: flex;
+  justify-content:space-around;
+  margin:100px 150px 100px 150px;
+}
 .pro_footer{
 text-align: center;
 }
@@ -143,9 +135,7 @@ footer a{
   display:flex;
   flex-direction: column;
 }
-.guide{
 
-}
 .logo_f{
   align-self: center;
   justify-self:started;
@@ -169,7 +159,7 @@ footer a:hover{
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-}
+
 @media screen and (max-width:620px){
 *{
   overflow-x: hidden;
@@ -203,33 +193,7 @@ header h1{
 .workflow_icons{
   flex-direction: column;
   margin:20px 0px 0px 0px;
+
 }
-.workflow_icons img{
-  padding-top: 20px;
-}
-.icons{
-  display: flex;
-  flex-direction: column;
-}
-.icons img{
-  width:150px;
-  align-self: center;
-  margin-top: 50px;
-  margin-right: 0px;
-}
-.icons img:nth-child(1){
-  margin-right: 0px;
-}
-.pro_footer{
-  overflow-y: hidden;
-  padding: 20px;
-}
-footer{
-  display: flex;
-  flex-direction: column;
-}
-footer a{
-  text-align: center;
-  padding: 10px;
-}
+
 }
